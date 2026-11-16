@@ -1,0 +1,75 @@
+
+/* Mise en forme générale */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contour extérieur de la carte */
+.carte {
+    width: 270px;
+    height: 500px;
+    background-color: #b9dff8;
+    padding: 10px;
+    border-radius: 11px;
+    box-sizing: border-box;
+}
+
+/* Image en haut de la carte */
+.carte-image {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px 6px 0 0;
+}
+
+/* Partie noire contenant le texte */
+.carte-contenu {
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 0 0 6px 6px;
+}
+
+/* Partie noire contenant le texte */
+.carte-contenu-2 {
+    height: 260px;
+    background-color: rgb(231, 175, 54);
+    padding: 20px;
+    border-radius: 0 0 6px 6px;
+}
+
+/* Petite catégorie */
+.categorie {
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px;
+}
+
+/* Titre principal */
+.carte-contenu h2 {
+    font-size: 15px;
+    color: #04418b;
+    margin: 0 0 7px;
+    font-weight: bold;
+}
+
+/* Description */
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+}
